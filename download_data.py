@@ -11,11 +11,11 @@ class Data:
         self.data = os.path.join(data_path, "data_as_csv.csv")
         self.embeddings = os.path.join(data_path, "pca_embeddings.csv")
         esg_path = os.path.join(data_path, "ESG")
-        self.avg_esg = os.path.join(esg_path, "average_esg_scores.csv")
-        self.daily_esg = os.path.join(esg_path, "overall_daily_esg_scores.csv")
-        self.e_score = os.path.join(esg_path, "daily_E_score.csv")
-        self.s_score = os.path.join(esg_path, "daily_S_score.csv")
-        self.g_score =os.path.join(esg_path, "daily_S_score.csv")
+        self.avg_esg = os.path.join(esg_path, "hk_average_esg_scores.csv")
+        self.daily_esg = os.path.join(esg_path, "hk_overall_daily_esg_scores.csv")
+        self.e_score = os.path.join(esg_path, "hk_daily_E_score.csv")
+        self.s_score = os.path.join(esg_path, "hk_daily_S_score.csv")
+        self.g_score =os.path.join(esg_path, "hk_daily_S_score.csv")
 
 
 
